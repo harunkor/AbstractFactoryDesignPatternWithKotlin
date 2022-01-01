@@ -1,17 +1,15 @@
 package com.harunkor.abstractfactorydesignpattern
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.CompoundButton
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.harunkor.abstractfactorydesignpattern.databinding.ActivityMainBinding
 import com.harunkor.abstractfactorydesignpattern.model.Food
 import com.harunkor.abstractfactorydesignpattern.repository.Menu
 import com.harunkor.abstractfactorydesignpattern.repository.MenuFactory
-import com.harunkor.abstractfactorydesignpattern.usecase.BurgerMenuFactory
 import com.harunkor.abstractfactorydesignpattern.usecase.PizzaMenuFactory
 import com.harunkor.abstractfactorydesignpattern.utils.FoodType
 
